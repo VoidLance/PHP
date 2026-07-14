@@ -1,6 +1,7 @@
 <?php
 
 declare(strict_types=1);
+// Mail settings. Emails do not send themselves, sadly.
 
 return [
     'mailer' => 'smtp',

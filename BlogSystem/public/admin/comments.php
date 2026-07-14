@@ -1,4 +1,5 @@
 <?php
+// Admin comments page. Same app, more buttons, slightly more danger.
 // Admin: Manage Comments - moderate those opinions!
 require_once dirname(__FILE__) . '/../../bootstrap.php';
 

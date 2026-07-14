@@ -1,6 +1,7 @@
 <?php
 
 declare(strict_types=1);
+// PayPal settings. Money code is rarely forgiving, so keep this tidy.
 
 return [
     'client_id' => '',

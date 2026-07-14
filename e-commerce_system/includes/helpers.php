@@ -1,6 +1,7 @@
 <?php
 
 declare(strict_types=1);
+// Shared helpers. Reusing code beats copy-paste, surprisingly enough.
 
 function app_config(string $key, mixed $default = null): mixed
 {

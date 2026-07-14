@@ -1,6 +1,7 @@
 <?php
 
 declare(strict_types=1);
+// Cart model. Mostly database chats, but at least they are organized.
 
 final class Cart
 {

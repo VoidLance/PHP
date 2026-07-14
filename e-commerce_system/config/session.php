@@ -1,6 +1,7 @@
 <?php
 
 declare(strict_types=1);
+// Session settings. Keeps logins alive and confusion a bit lower.
 
 if (session_status() !== PHP_SESSION_ACTIVE) {
     session_set_cookie_params([
